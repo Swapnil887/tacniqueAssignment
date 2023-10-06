@@ -7,8 +7,6 @@ const taskRoute = express()
 // POST /tasks: Add a new task.
 // GET /tasks: Retrieve a list of all tasks.
 // GET /tasks/:id: Retrieve a specific task by ID.
-// PUT /tasks/:id: Update a specific task by ID.
-// DELETE /tasks/:id: Delete a specific task by ID.
 
 taskRoute.post("/",authentication,limiter,async(req,res,next)=>{ 
     
