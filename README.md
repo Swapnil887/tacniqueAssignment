@@ -125,6 +125,7 @@
   "status": "completed",
 }
 
+### you can update title,description and status individually also 
 
 
 ### Response:
