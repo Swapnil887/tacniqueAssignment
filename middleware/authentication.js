@@ -2,6 +2,8 @@ const jwt = require("jsonwebtoken")
 require("dotenv").config();
 
 
+// POST /tasks: Add a new task.
+
 const authentication = async (req, res, next) => {
     const token = req.headers.authorization
     try {

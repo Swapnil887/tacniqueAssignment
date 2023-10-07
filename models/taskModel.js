@@ -1,4 +1,3 @@
-// Each task should have an ID, title, description, creation date, and a status (e.g., pending, completed)
 
 const mongoose = require("mongoose");
 
